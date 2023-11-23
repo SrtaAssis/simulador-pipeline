@@ -1,0 +1,46 @@
+
+.tabela{
+    margin: 30px;
+    height: 20vh;
+    width: max-content;
+}
+.dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+mat-card{
+    width: 30vw;
+}
+
+.numeros{
+    float: right;
+    width: 2vw;
+    height: 90%;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.tempo{
+	color: #ff4081;
+	font-weight: bolder;
+    font-size: 16px;
+}
+.sla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+}
+td{
+    font-size: 20px;
+}
+tr{
+    margin-bottom: 10px;
+}
+.tempoTotal{
+    margin: 30px;
+    font-size: 20px;
+}
